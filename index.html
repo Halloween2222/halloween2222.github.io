@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="王圣杰的个人主页 - AI · NLP · Large Language Models · Educational AI">
+          content="王圣杰的个人主页，主要研究 NLP、大语言模型、教育人工智能、自动作文评分和短答案自动评分。">
 
     <title>王圣杰 | AI · NLP · LLM</title>
 
@@ -19,28 +19,31 @@
           rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- =========================
+<!-- =========================================================
      Background Decoration
-========================= -->
+========================================================= -->
 
 <div class="background-decoration">
-    <div class="gradient-orb orb-1"></div>
-    <div class="gradient-orb orb-2"></div>
-    <div class="gradient-orb orb-3"></div>
+    <div class="blur-circle circle-pink"></div>
+    <div class="blur-circle circle-blue"></div>
+    <div class="blur-circle circle-purple"></div>
 </div>
 
 
-<!-- =========================
+<!-- =========================================================
      Navigation
-========================= -->
+========================================================= -->
 
 <header class="navbar">
 
@@ -61,77 +64,84 @@
 
             <a href="#learning">学习</a>
 
-            <a href="#roadmap">规划</a>
+            <a href="#plan">规划</a>
 
             <a href="#contact">联系</a>
 
         </nav>
 
-        <button class="mobile-menu-btn" id="mobileMenuBtn">
-            <i class="fas fa-bars"></i>
-        </button>
+        <a href="#contact" class="nav-button">
+            Let's Connect
+        </a>
 
     </div>
 
 </header>
 
 
-<!-- =========================
+<!-- =========================================================
      Hero
-========================= -->
+========================================================= -->
+
+<main>
 
 <section id="home" class="hero">
 
     <div class="hero-container">
 
+        <!-- Left -->
+
         <div class="hero-content">
 
-            <div class="hello-badge">
-                <span class="hello-dot"></span>
-                Hello, I'm Shengjie Wang
+            <div class="hero-label">
+                <span class="status-dot"></span>
+                AI / NLP Research & Practice
             </div>
 
             <h1>
-                AI · NLP ·
-                <span>Large Language Models</span>
+                你好，我是
+                <span>王圣杰</span>
             </h1>
 
+            <h2>
+                AI · NLP · Large Language Models
+            </h2>
+
             <p class="hero-description">
-                探索自然语言处理与大语言模型，
-                <br>
-                并尝试将人工智能应用于
-                <strong>智能教育与自动评分</strong>。
+
+                目前主要学习和实践
+                <strong>NLP</strong>，
+                主要研究大语言模型与预训练模型在
+                <strong>教育智能评分</strong>中的应用。
+
+                <br><br>
+
+                我的兴趣方向是：
+
             </p>
 
             <div class="hero-tags">
 
-                <span>
-                    <i class="fas fa-brain"></i>
-                    NLP
-                </span>
+                <span>NLP</span>
 
-                <span>
-                    <i class="fas fa-robot"></i>
-                    LLM
-                </span>
+                <span>Large Language Models</span>
 
-                <span>
-                    <i class="fas fa-graduation-cap"></i>
-                    Educational AI
-                </span>
+                <span>Educational AI</span>
+
+                <span>Explainable AI</span>
 
             </div>
 
             <div class="hero-buttons">
 
-                <a href="#research" class="btn btn-primary">
-                    <i class="fas fa-flask"></i>
-                    Explore My Research
+                <a href="#research" class="primary-button">
+                    <i class="fa-solid fa-flask"></i>
+                    查看我的研究
                 </a>
 
-                <a href="#about" class="btn btn-secondary">
-                    About Me
-                    <i class="fas fa-arrow-down"></i>
+                <a href="#about" class="secondary-button">
+                    <i class="fa-regular fa-user"></i>
+                    了解更多
                 </a>
 
             </div>
@@ -139,117 +149,112 @@
         </div>
 
 
-        <!-- Hero Profile -->
+        <!-- Right -->
 
-        <div class="hero-profile">
+        <div class="hero-card">
 
-            <div class="profile-glow"></div>
+            <div class="avatar">
 
-            <div class="profile-card">
-
-                <div class="profile-avatar">
-                    <span>👨‍💻</span>
-                </div>
-
-                <div class="profile-name">
-                    王圣杰
-                </div>
-
-                <div class="profile-title">
-                    AI / NLP Researcher
-                </div>
-
-                <div class="profile-location">
-                    <i class="fas fa-location-dot"></i>
-                    Artificial Intelligence
-                </div>
-
-                <div class="profile-line"></div>
-
-                <div class="profile-mini-tags">
-
-                    <span>PyTorch</span>
-
-                    <span>BERT</span>
-
-                    <span>LLM</span>
-
-                    <span>Agent</span>
-
+                <div class="avatar-inner">
+                    <i class="fa-solid fa-user-astronaut"></i>
                 </div>
 
             </div>
 
+            <h3>王圣杰</h3>
+
+            <p>AI / NLP Researcher</p>
+
+            <div class="hero-card-line"></div>
+
+            <div class="mini-tags">
+
+                <span>PyTorch</span>
+
+                <span>BERT</span>
+
+                <span>LLM</span>
+
+                <span>Agent</span>
+
+            </div>
+
+            <div class="hero-card-footer">
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    AI · Computer Science
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-code"></i>
+                    Building & Research
+                </span>
+            </div>
+
         </div>
-
-    </div>
-
-
-    <div class="scroll-indicator">
-
-        <span>Scroll to explore</span>
-
-        <i class="fas fa-chevron-down"></i>
 
     </div>
 
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      About
-========================= -->
+========================================================= -->
 
 <section id="about" class="section">
 
     <div class="section-container">
 
-        <div class="section-header">
+        <div class="section-heading">
 
-            <span class="section-label">
-                ABOUT ME
-            </span>
+            <span class="section-number">01</span>
 
-            <h2>
-                关于我
-            </h2>
+            <div>
+                <p class="section-small-title">
+                    ABOUT ME
+                </p>
 
-            <p>
-                从模型使用者，逐渐走向模型理解者与研究者。
-            </p>
+                <h2>
+                    关于我
+                </h2>
+            </div>
 
         </div>
 
 
         <div class="about-grid">
 
-            <div class="about-text card">
+            <!-- Main About -->
 
-                <div class="card-icon blue-icon">
-                    <i class="fas fa-user"></i>
+            <div class="about-main card">
+
+                <div class="card-icon pink-icon">
+                    <i class="fa-solid fa-user"></i>
                 </div>
 
                 <h3>
-                    我是谁？
+                    AI 学习者 · NLP 实践者
                 </h3>
 
                 <p>
-                    我是<strong>王圣杰</strong>，目前主要学习和实践
-                    <strong>自然语言处理（NLP）</strong>相关技术。
+                    我目前主要学习和实践自然语言处理（NLP）
+                    相关技术，并尝试将大语言模型（LLM）、
+                    预训练语言模型（PLM）应用到教育人工智能领域。
                 </p>
 
                 <p>
-                    当前主要关注
-                    <strong>大语言模型（LLM）</strong>、
-                    <strong>预训练语言模型（PLM）</strong>
-                    在教育领域中的应用，
-                    尤其是自动作文评分（AES）和短答案自动评分（SAS）。
+                    目前主要关注
+                    <strong>自动作文评分（AES）</strong>、
+                    <strong>短答案自动评分（SAS）</strong>，
+                    希望探索如何利用 AI 对学生答案进行更加准确、
+                    稳定和可解释的评价。
                 </p>
 
                 <p>
                     在学习过程中，我逐渐认识到，
                     人工智能不仅需要掌握理论知识，
-                    更需要通过不断实践来真正理解模型和算法。
+                    也需要通过不断实践真正理解模型和算法。
                 </p>
 
                 <p>
@@ -260,48 +265,118 @@
             </div>
 
 
-            <div class="about-interests">
+            <!-- Basic Info -->
 
-                <div class="interest-card pink-card">
+            <div class="about-info card">
 
-                    <div class="interest-icon">
-                        <i class="fas fa-language"></i>
+                <div class="info-item">
+
+                    <div class="info-icon blue-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
                     </div>
 
                     <div>
-                        <h3>Natural Language Processing</h3>
-                        <p>文本理解 · 语义表示 · 文本生成</p>
+                        <span>专业方向</span>
+                        <strong>人工智能 / 计算机相关方向</strong>
                     </div>
 
                 </div>
 
 
-                <div class="interest-card blue-card">
+                <div class="info-item">
 
-                    <div class="interest-icon">
-                        <i class="fas fa-robot"></i>
+                    <div class="info-icon purple-icon">
+                        <i class="fa-solid fa-brain"></i>
                     </div>
 
                     <div>
-                        <h3>Large Language Models</h3>
-                        <p>LLM · Fine-tuning · Alignment</p>
+                        <span>研究兴趣</span>
+                        <strong>NLP · 深度学习 · Agent</strong>
                     </div>
 
                 </div>
 
 
-                <div class="interest-card purple-card">
+                <div class="info-item">
 
-                    <div class="interest-icon">
-                        <i class="fas fa-graduation-cap"></i>
+                    <div class="info-icon pink-icon">
+                        <i class="fa-solid fa-microscope"></i>
                     </div>
 
                     <div>
-                        <h3>Educational AI</h3>
-                        <p>智能教育 · 自动评分 · AI Assessment</p>
+                        <span>应用方向</span>
+                        <strong>智能教育 · 自动评分</strong>
                     </div>
 
                 </div>
+
+
+                <div class="info-item">
+
+                    <div class="info-icon blue-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div>
+                        <span>实践方式</span>
+                        <strong>学习 · 实验 · 项目 · 研究</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Interest Cards -->
+
+        <div class="interest-grid">
+
+            <div class="interest-card">
+
+                <div class="interest-icon">
+                    <i class="fa-solid fa-language"></i>
+                </div>
+
+                <h3>Natural Language Processing</h3>
+
+                <p>
+                    文本理解、文本生成、语义表示、
+                    Transformer 与预训练语言模型。
+                </p>
+
+            </div>
+
+
+            <div class="interest-card">
+
+                <div class="interest-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <h3>Large Language Models</h3>
+
+                <p>
+                    LLM 预训练、指令微调、
+                    参数高效微调、推理、对齐与评价。
+                </p>
+
+            </div>
+
+
+            <div class="interest-card">
+
+                <div class="interest-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <h3>Educational AI</h3>
+
+                <p>
+                    自动评分、智能教育、学习分析、
+                    可解释评价与教育场景中的 AI 应用。
+                </p>
 
             </div>
 
@@ -312,121 +387,164 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      Research
-========================= -->
+========================================================= -->
 
 <section id="research" class="section research-section">
 
     <div class="section-container">
 
-        <div class="section-header">
+        <div class="section-heading">
 
-            <span class="section-label">
-                RESEARCH & PROJECTS
-            </span>
+            <span class="section-number">02</span>
 
-            <h2>
-                研究与项目
-            </h2>
+            <div>
+                <p class="section-small-title">
+                    RESEARCH & PROJECTS
+                </p>
 
-            <p>
-                将 NLP、LLM 与教育人工智能结合，
-                探索更加准确、可解释的自动评分方法。
-            </p>
+                <h2>
+                    个人项目与研究实践
+                </h2>
+            </div>
 
         </div>
 
 
-        <!-- Project 1 -->
+        <p class="section-intro">
+            目前主要围绕
+            <strong>NLP × LLM × Educational AI</strong>
+            开展学习、实验与研究。
+        </p>
+
+
+        <!-- =================================================
+             Project 1 CAFE
+        ================================================= -->
 
         <article class="project-card featured-project">
 
             <div class="project-top">
 
-                <div>
-
-                    <span class="project-number">
-                        01
-                    </span>
-
-                    <span class="project-category">
-                        Automated Essay Scoring
-                    </span>
-
+                <div class="project-index">
+                    PROJECT 01
                 </div>
 
-                <div class="project-icon">
-                    <i class="fas fa-file-pen"></i>
+                <div class="project-status">
+                    Research
                 </div>
 
             </div>
 
 
-            <h3>
-                CAFE
-            </h3>
+            <div class="project-title">
 
-            <h4>
-                Leveraging Large Language Model-Generated Comments
-                for Fine-grained Interpretable Essay Scoring
-            </h4>
+                <h3>
+                    CAFE
+                </h3>
+
+                <p>
+                    Leveraging Large Language Model-Generated Comments
+                    for Fine-grained Interpretable Essay Scoring
+                </p>
+
+            </div>
 
 
-            <p class="project-description">
+            <div class="project-description">
 
-                CAFE（Comment-Augmented Fine-grained Explainable Essay Scoring）
-                探索利用大语言模型生成的
-                <strong>细粒度诊断性评价评论</strong>
-                作为中间评分知识，并与预训练语言模型进行融合，
-                从而提升自动作文评分的准确性、稳定性与可解释性。
+                <p>
+                    我对
+                    <strong>自动作文评分（Automated Essay Scoring，AES）</strong>
+                    进行了实践和研究。
+                </p>
 
-            </p>
+                <p>
+                    该项目关注如何利用
+                    <strong>大语言模型（LLM）</strong>
+                    与
+                    <strong>预训练语言模型（PLM）</strong>
+                    相结合，对学生作文进行自动评分，
+                    同时提升评分模型的
+                    <strong>准确性、可解释性和稳定性</strong>。
+                </p>
+
+                <p>
+                    传统的 BERT 等编码器模型能够高效地学习作文文本表示，
+                    但通常主要依赖最终分数进行监督，
+                    缺少对“为什么这个作文得到这个分数”的显式建模。
+                </p>
+
+                <p>
+                    因此，该项目提出
+                    <strong>CAFE（Comment-Augmented Fine-grained
+                    Explainable Essay Scoring）</strong>，
+                    利用 LLM 生成的
+                    <strong>细粒度诊断性评价评论（Diagnostic Comments）</strong>
+                    作为中间评分知识，并将这些评价信息与作文文本表示进行融合。
+                </p>
+
+            </div>
 
 
             <!-- Architecture -->
 
             <div class="architecture">
 
-                <div class="architecture-step">
-                    <i class="fas fa-file-lines"></i>
-                    <span>Essay</span>
+                <div class="architecture-title">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    Model Idea
                 </div>
 
-                <div class="architecture-arrow">
-                    →
-                </div>
+                <div class="architecture-flow">
 
-                <div class="architecture-step">
-                    <i class="fas fa-robot"></i>
-                    <span>LLM</span>
-                </div>
+                    <div class="flow-item">
+                        <span>01</span>
+                        <strong>Student Essay</strong>
+                        <small>学生作文</small>
+                    </div>
 
-                <div class="architecture-arrow">
-                    →
-                </div>
+                    <div class="flow-arrow">
+                        →
+                    </div>
 
-                <div class="architecture-step">
-                    <i class="fas fa-comment-dots"></i>
-                    <span>Comments</span>
-                </div>
+                    <div class="flow-item llm-flow">
+                        <span>02</span>
+                        <strong>LLM</strong>
+                        <small>评价知识生成</small>
+                    </div>
 
-                <div class="architecture-arrow">
-                    →
-                </div>
+                    <div class="flow-arrow">
+                        →
+                    </div>
 
-                <div class="architecture-step">
-                    <i class="fas fa-brain"></i>
-                    <span>BERT</span>
-                </div>
+                    <div class="flow-item">
+                        <span>03</span>
+                        <strong>Diagnostic Comments</strong>
+                        <small>细粒度评价</small>
+                    </div>
 
-                <div class="architecture-arrow">
-                    →
-                </div>
+                    <div class="flow-arrow">
+                        →
+                    </div>
 
-                <div class="architecture-step score-step">
-                    <i class="fas fa-chart-line"></i>
-                    <span>Score</span>
+                    <div class="flow-item bert-flow">
+                        <span>04</span>
+                        <strong>BERT / PLM</strong>
+                        <small>表示学习与融合</small>
+                    </div>
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+                    <div class="flow-item score-flow">
+                        <span>05</span>
+                        <strong>Score</strong>
+                        <small>自动评分</small>
+                    </div>
+
                 </div>
 
             </div>
@@ -434,7 +552,7 @@
 
             <!-- Metrics -->
 
-            <div class="metrics-grid">
+            <div class="metrics">
 
                 <div class="metric-card">
 
@@ -443,14 +561,14 @@
                     </span>
 
                     <div class="metric-value">
-                        0.712
-                        <span>→</span>
-                        0.815
+                        <span>0.712</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <strong>0.815</strong>
                     </div>
 
-                    <span class="metric-description">
+                    <p>
                         CAFE-0D → CAFE-6D
-                    </span>
+                    </p>
 
                 </div>
 
@@ -462,143 +580,408 @@
                     </span>
 
                     <div class="metric-value">
-                        0.0965
-                        <span>→</span>
-                        0.2174
+                        <span>0.0965</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <strong>0.2174</strong>
                     </div>
 
-                    <span class="metric-description">
-                        Better representation separation
+                    <p>
+                        表示空间可分性提升
+                    </p>
+
+                </div>
+
+
+                <div class="metric-card">
+
+                    <span class="metric-label">
+                        Evaluation
                     </span>
+
+                    <div class="metric-large">
+                        ASAP-AES
+                        <span>·</span>
+                        PERSUADE 2.0
+                    </div>
+
+                    <p>
+                        多数据集实验验证
+                    </p>
 
                 </div>
 
             </div>
 
 
-            <div class="project-tags">
+            <!-- Technology -->
 
-                <span>BERT</span>
+            <div class="technology-area">
 
-                <span>LLM</span>
+                <h4>
+                    <i class="fa-solid fa-toolbox"></i>
+                    主要技术
+                </h4>
 
-                <span>AES</span>
+                <div class="technology-tags">
 
-                <span>Explainable AI</span>
+                    <span>BERT</span>
+                    <span>PLM</span>
+                    <span>LLM</span>
+                    <span>LLM-generated Comments</span>
+                    <span>Dual-channel Representation</span>
+                    <span>Silhouette Score</span>
+                    <span>t-SNE</span>
+                    <span>Explainable AI</span>
 
-                <span>t-SNE</span>
+                </div>
 
-                <span>Silhouette Score</span>
+            </div>
+
+
+            <div class="project-insight">
+
+                <div class="insight-icon">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+
+                <div>
+
+                    <span>Research Insight</span>
+
+                    <p>
+                        LLM 不一定需要直接作为最终评分器，
+                        也可以作为
+                        <strong>“评分知识提供者”</strong>，
+                        将丰富的评价能力转化为结构化的中间知识，
+                        再与传统预训练语言模型结合。
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-footer">
+
+                <span>
+                    <i class="fa-solid fa-chart-line"></i>
+                    Accuracy
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-eye"></i>
+                    Interpretability
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    Stability
+                </span>
+
+                <a href="#contact">
+                    详细内容请联系我
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
 
             </div>
 
         </article>
 
 
-        <!-- Project 2 -->
+        <!-- =================================================
+             Project 2 SAS
+        ================================================= -->
 
-        <article class="project-card second-project">
+        <article class="project-card">
 
             <div class="project-top">
 
+                <div class="project-index">
+                    PROJECT 02
+                </div>
+
+                <div class="project-status">
+                    SAS Research
+                </div>
+
+            </div>
+
+
+            <div class="project-title">
+
+                <h3>
+                    Rubric-Guided Fine-grained
+                    Interpretable Short Answer Scoring
+                </h3>
+
+                <p>
+                    with LLM and BERT
+                </p>
+
+            </div>
+
+
+            <div class="project-description">
+
+                <p>
+                    我对
+                    <strong>短答案自动评分（Short Answer Scoring，SAS）</strong>
+                    进行了研究与实践。
+                </p>
+
+                <p>
+                    传统 SAS 方法通常可以抽象为：
+                </p>
+
+            </div>
+
+
+            <!-- Traditional Pipeline -->
+
+            <div class="code-pipeline">
+
+                <div>
+                    Question
+                </div>
+
+                <span>+</span>
+
+                <div>
+                    Reference Answer
+                </div>
+
+                <span>+</span>
+
+                <div>
+                    Student Answer
+                </div>
+
+                <span>→</span>
+
+                <div class="pipeline-highlight">
+                    Encoder
+                </div>
+
+                <span>→</span>
+
+                <div class="pipeline-score">
+                    Holistic Score
+                </div>
+
+            </div>
+
+
+            <div class="project-description">
+
+                <p>
+                    这种方法虽然能够直接学习“完整答案到总分”的映射，
+                    但本质上更接近
+                    <strong>黑盒整体评分</strong>。
+                </p>
+
+                <p>
+                    模型只能输出一个最终分数，却无法解释学生答案中
+                    哪一步正确、哪一步错误、每一步被扣了多少分，
+                    以及错误属于概念错误还是计算错误。
+                </p>
+
+                <p>
+                    因此，本项目提出一种基于
+                    <strong>评分量规（Rubric）</strong>
+                    引导的细粒度可解释短答案自动评分方法。
+                </p>
+
+            </div>
+
+
+            <!-- Rubric Flow -->
+
+            <div class="rubric-flow">
+
+                <div class="rubric-title">
+                    <i class="fa-solid fa-list-check"></i>
+                    Rubric First, Student Answer Second
+                </div>
+
+                <div class="rubric-steps">
+
+                    <div class="rubric-step">
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+                        <h4>
+                            Question
+                        </h4>
+
+                        <p>
+                            题目
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-line"></div>
+
+
+                    <div class="rubric-step">
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+                        <h4>
+                            Reference
+                        </h4>
+
+                        <p>
+                            参考答案
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-line"></div>
+
+
+                    <div class="rubric-step active-step">
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+                        <h4>
+                            Rubric
+                        </h4>
+
+                        <p>
+                            构建评分量规
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-line"></div>
+
+
+                    <div class="rubric-step">
+
+                        <div class="step-number">
+                            04
+                        </div>
+
+                        <h4>
+                            Student Answer
+                        </h4>
+
+                        <p>
+                            学生答案
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-line"></div>
+
+
+                    <div class="rubric-step">
+
+                        <div class="step-number">
+                            05
+                        </div>
+
+                        <h4>
+                            Evaluation
+                        </h4>
+
+                        <p>
+                            分步评价
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SAS Technology -->
+
+            <div class="technology-area">
+
+                <h4>
+                    <i class="fa-solid fa-code"></i>
+                    主要技术
+                </h4>
+
+                <div class="technology-tags">
+
+                    <span>BERT</span>
+                    <span>LLM</span>
+                    <span>Reference Rubric Construction</span>
+                    <span>Student Step Decomposition</span>
+                    <span>Step Alignment</span>
+                    <span>Step-wise Evaluation</span>
+                    <span>Cross Attention</span>
+                    <span>Explainable AI</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Dataset -->
+
+            <div class="dataset-area">
+
+                <div>
+                    <span>Datasets</span>
+
+                    <strong>
+                        ADS
+                    </strong>
+
+                </div>
+
+                <div>
+                    <span></span>
+
+                    <strong>
+                        ASAG
+                    </strong>
+
+                </div>
+
+                <div>
+                    <span></span>
+
+                    <strong>
+                        LE
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-insight">
+
+                <div class="insight-icon">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+
                 <div>
 
-                    <span class="project-number">
-                        02
-                    </span>
+                    <span>Research Goal</span>
 
-                    <span class="project-category">
-                        Short Answer Scoring
-                    </span>
+                    <p>
+                        从“直接预测最终分数”进一步走向
+                        <strong>细粒度、可解释、过程化的自动评分</strong>，
+                        让模型不仅知道“多少分”，也能够解释“为什么是这个分数”。
+                    </p>
 
                 </div>
-
-                <div class="project-icon pink-project-icon">
-                    <i class="fas fa-pen-to-square"></i>
-                </div>
-
-            </div>
-
-
-            <h3>
-                Rubric-Guided Fine-grained
-                Interpretable Short Answer Scoring
-            </h3>
-
-            <h4>
-                LLM × BERT × Rubric
-            </h4>
-
-
-            <p class="project-description">
-
-                面向短答案自动评分（SAS）任务，
-                尝试利用 LLM 构建评分量规（Rubric），
-                对学生答案进行步骤分解、对齐与细粒度评价，
-                从整体分数预测进一步走向
-                <strong>可解释的过程级评分</strong>。
-
-            </p>
-
-
-            <!-- SAS Flow -->
-
-            <div class="sas-flow">
-
-                <div class="flow-item">
-                    <span class="flow-number">01</span>
-                    <strong>Question</strong>
-                    <small>题目</small>
-                </div>
-
-                <div class="flow-line"></div>
-
-                <div class="flow-item">
-                    <span class="flow-number">02</span>
-                    <strong>Reference</strong>
-                    <small>参考答案</small>
-                </div>
-
-                <div class="flow-line"></div>
-
-                <div class="flow-item">
-                    <span class="flow-number">03</span>
-                    <strong>Rubric</strong>
-                    <small>评分量规</small>
-                </div>
-
-                <div class="flow-line"></div>
-
-                <div class="flow-item">
-                    <span class="flow-number">04</span>
-                    <strong>Student</strong>
-                    <small>学生答案</small>
-                </div>
-
-                <div class="flow-line"></div>
-
-                <div class="flow-item">
-                    <span class="flow-number">05</span>
-                    <strong>Score</strong>
-                    <small>细粒度评分</small>
-                </div>
-
-            </div>
-
-
-            <div class="project-tags">
-
-                <span>BERT</span>
-
-                <span>LLM</span>
-
-                <span>Rubric</span>
-
-                <span>SAS</span>
-
-                <span>Cross Attention</span>
-
-                <span>Explainable AI</span>
 
             </div>
 
@@ -609,40 +992,39 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      Skills
-========================= -->
+========================================================= -->
 
 <section id="skills" class="section">
 
     <div class="section-container">
 
-        <div class="section-header">
+        <div class="section-heading">
 
-            <span class="section-label">
-                KNOWLEDGE & SKILLS
-            </span>
+            <span class="section-number">03</span>
 
-            <h2>
-                专业知识与技能
-            </h2>
+            <div>
 
-            <p>
-                当前正在学习与实践的技术栈。
-            </p>
+                <p class="section-small-title">
+                    KNOWLEDGE & SKILLS
+                </p>
+
+                <h2>
+                    专业知识与能力
+                </h2>
+
+            </div>
 
         </div>
 
 
         <div class="skills-grid">
 
-
-            <!-- AI -->
-
             <div class="skill-card">
 
-                <div class="skill-icon blue-icon">
-                    <i class="fas fa-brain"></i>
+                <div class="skill-card-icon pink-icon">
+                    <i class="fa-solid fa-fire"></i>
                 </div>
 
                 <h3>
@@ -650,26 +1032,24 @@
                 </h3>
 
                 <p>
-                    深度学习与神经网络
+                    深度学习模型训练、实验调参、
+                    GPU/CUDA 环境与模型优化。
                 </p>
 
                 <div class="skill-tags">
-
                     <span>PyTorch</span>
-                    <span>Neural Network</span>
                     <span>CUDA</span>
-
+                    <span>Training</span>
+                    <span>Optimization</span>
                 </div>
 
             </div>
 
 
-            <!-- NLP -->
-
             <div class="skill-card">
 
-                <div class="skill-icon pink-icon">
-                    <i class="fas fa-language"></i>
+                <div class="skill-card-icon blue-icon">
+                    <i class="fa-solid fa-language"></i>
                 </div>
 
                 <h3>
@@ -677,27 +1057,24 @@
                 </h3>
 
                 <p>
-                    自然语言处理与预训练模型
+                    自然语言处理、文本表示、
+                    Transformer 与预训练语言模型。
                 </p>
 
                 <div class="skill-tags">
-
                     <span>BERT</span>
                     <span>Transformer</span>
                     <span>GPT</span>
                     <span>Hugging Face</span>
-
                 </div>
 
             </div>
 
 
-            <!-- LLM -->
-
             <div class="skill-card">
 
-                <div class="skill-icon purple-icon">
-                    <i class="fas fa-robot"></i>
+                <div class="skill-card-icon purple-icon">
+                    <i class="fa-solid fa-robot"></i>
                 </div>
 
                 <h3>
@@ -705,44 +1082,40 @@
                 </h3>
 
                 <p>
-                    大语言模型训练与应用
+                    大语言模型微调、参数高效训练、
+                    Prompt 与模型评价。
                 </p>
 
                 <div class="skill-tags">
-
                     <span>LLM</span>
                     <span>LoRA</span>
                     <span>GRPO</span>
                     <span>Fine-tuning</span>
-
                 </div>
 
             </div>
 
 
-            <!-- Research -->
-
             <div class="skill-card">
 
-                <div class="skill-icon green-icon">
-                    <i class="fas fa-flask"></i>
+                <div class="skill-card-icon pink-icon">
+                    <i class="fa-solid fa-flask"></i>
                 </div>
 
                 <h3>
-                    Research
+                    AI Research
                 </h3>
 
                 <p>
-                    AI Research & Evaluation
+                    教育智能评分、实验设计、
+                    模型评价与可解释性分析。
                 </p>
 
                 <div class="skill-tags">
-
                     <span>AES</span>
                     <span>SAS</span>
                     <span>QWK</span>
                     <span>t-SNE</span>
-
                 </div>
 
             </div>
@@ -750,81 +1123,68 @@
         </div>
 
 
-        <!-- Learning Ability -->
+        <!-- Growth -->
 
-        <div class="knowledge-card">
+        <div class="growth-card">
 
-            <div class="knowledge-left">
+            <div class="growth-title">
 
-                <span class="section-label">
-                    CURRENT LEVEL
+                <span>
+                    CURRENT GROWTH PATH
                 </span>
 
                 <h3>
-                    从“会使用模型”到“理解模型”
+                    我的学习目标
                 </h3>
-
-                <p>
-                    我希望逐渐从调用现有模型，
-                    进一步理解模型内部机制，
-                    并尝试修改和设计模型。
-                </p>
 
             </div>
 
+            <div class="growth-path">
 
-            <div class="knowledge-path">
-
-                <div class="path-item completed">
-
+                <div class="growth-item">
                     <span>01</span>
-
                     <strong>使用模型</strong>
-
-                    <small>Using Models</small>
-
+                    <small>Use</small>
                 </div>
 
-                <div class="path-arrow">
+                <div class="growth-arrow">
                     →
                 </div>
 
-                <div class="path-item completed">
-
+                <div class="growth-item">
                     <span>02</span>
-
                     <strong>理解模型</strong>
-
-                    <small>Understanding</small>
-
+                    <small>Understand</small>
                 </div>
 
-                <div class="path-arrow">
+                <div class="growth-arrow">
                     →
                 </div>
 
-                <div class="path-item">
-
+                <div class="growth-item">
                     <span>03</span>
-
                     <strong>修改模型</strong>
-
-                    <small>Modifying</small>
-
+                    <small>Modify</small>
                 </div>
 
-                <div class="path-arrow">
+                <div class="growth-arrow">
                     →
                 </div>
 
-                <div class="path-item">
-
+                <div class="growth-item highlight-growth">
                     <span>04</span>
-
                     <strong>设计模型</strong>
+                    <small>Design</small>
+                </div>
 
-                    <small>Designing</small>
+                <div class="growth-arrow">
+                    →
+                </div>
 
+                <div class="growth-item">
+                    <span>05</span>
+                    <strong>独立研究</strong>
+                    <small>Research</small>
                 </div>
 
             </div>
@@ -836,172 +1196,51 @@
 </section>
 
 
-<!-- =========================
-     Learning
-========================= -->
+<!-- =========================================================
+     Self Evaluation
+========================================================= -->
 
-<section id="learning" class="section learning-section">
+<section class="section evaluation-section">
 
     <div class="section-container">
 
-        <div class="section-header">
+        <div class="section-heading">
 
-            <span class="section-label">
-                CURRENTLY EXPLORING
-            </span>
-
-            <h2>
-                接下来最想学习什么？
-            </h2>
-
-            <p>
-                不断拓展自己的 AI 知识边界。
-            </p>
-
-        </div>
-
-
-        <div class="learning-grid">
-
-            <div class="learning-item learning-blue">
-                <div class="learning-icon">
-                    <i class="fas fa-database"></i>
-                </div>
-
-                <div>
-                    <h3>RAG</h3>
-                    <p>Retrieval-Augmented Generation</p>
-                </div>
-            </div>
-
-
-            <div class="learning-item learning-pink">
-                <div class="learning-icon">
-                    <i class="fas fa-network-wired"></i>
-                </div>
-
-                <div>
-                    <h3>Agent</h3>
-                    <p>AI Agents & Tool Use</p>
-                </div>
-            </div>
-
-
-            <div class="learning-item learning-purple">
-                <div class="learning-icon">
-                    <i class="fas fa-bullseye"></i>
-                </div>
-
-                <div>
-                    <h3>GRPO</h3>
-                    <p>LLM Reinforcement Learning</p>
-                </div>
-            </div>
-
-
-            <div class="learning-item learning-green">
-                <div class="learning-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-
-                <div>
-                    <h3>Reward Model</h3>
-                    <p>Preference & Reward Modeling</p>
-                </div>
-            </div>
-
-
-            <div class="learning-item learning-yellow">
-                <div class="learning-icon">
-                    <i class="fas fa-chart-simple"></i>
-                </div>
-
-                <div>
-                    <h3>LLM Evaluation</h3>
-                    <p>Evaluation & Benchmarking</p>
-                </div>
-            </div>
-
-
-            <div class="learning-item learning-blue">
-                <div class="learning-icon">
-                    <i class="fas fa-gauge-high"></i>
-                </div>
-
-                <div>
-                    <h3>Efficient Inference</h3>
-                    <p>Efficient LLM Inference</p>
-                </div>
-            </div>
-
-        </div>
-
-
-        <!-- Math -->
-
-        <div class="math-card">
+            <span class="section-number">04</span>
 
             <div>
 
-                <span class="section-label">
-                    FUNDAMENTALS
-                </span>
+                <p class="section-small-title">
+                    SELF EVALUATION
+                </p>
 
-                <h3>
-                    同时加强数学基础
-                </h3>
-
-            </div>
-
-            <div class="math-tags">
-
-                <span>概率论</span>
-
-                <span>线性代数</span>
-
-                <span>微积分</span>
-
-                <span>优化理论</span>
+                <h2>
+                    自我评价
+                </h2>
 
             </div>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="evaluation-card">
 
+            <div class="evaluation-main">
 
-<!-- =========================
-     Self Evaluation
-========================= -->
-
-<section class="section">
-
-    <div class="section-container">
-
-        <div class="section-header">
-
-            <span class="section-label">
-                SELF EVALUATION
-            </span>
-
-            <h2>
-                自我评价
-            </h2>
-
-        </div>
-
-
-        <div class="evaluation-container">
-
-            <div class="evaluation-quote">
-
-                <i class="fas fa-quote-left"></i>
+                <div class="quote-mark">
+                    “
+                </div>
 
                 <p>
-                    我认为自己的专业能力仍然存在很多不足，
-                    但也正因为如此，我希望保持持续学习和实践。
+                    虽然目前已经掌握了一些人工智能和 NLP
+                    方面的基础知识，但我认为自己的专业能力
+                    仍然存在很多不足。
+                </p>
+
+                <p>
+                    因此，我希望通过持续阅读论文、完成实验、
+                    开发项目以及深入理解模型内部机制，
+                    不断提升自己的科研能力。
                 </p>
 
             </div>
@@ -1011,20 +1250,17 @@
 
                 <div class="evaluation-item">
 
-                    <div class="evaluation-icon">
-                        <i class="fas fa-book-open"></i>
-                    </div>
+                    <span>01</span>
 
                     <div>
-
-                        <h3>
-                            论文阅读能力
-                        </h3>
+                        <strong>
+                            科研论文阅读能力
+                        </strong>
 
                         <p>
-                            持续提升论文阅读、理解和总结能力。
+                            需要继续提高对论文方法、
+                            实验与创新点的理解能力。
                         </p>
-
                     </div>
 
                 </div>
@@ -1032,20 +1268,17 @@
 
                 <div class="evaluation-item">
 
-                    <div class="evaluation-icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
+                    <span>02</span>
 
                     <div>
-
-                        <h3>
-                            实验设计
-                        </h3>
+                        <strong>
+                            实验设计与科研创新
+                        </strong>
 
                         <p>
-                            加强科研实验设计、分析和创新能力。
+                            希望逐渐从复现已有方法，
+                            转向提出自己的研究问题。
                         </p>
-
                     </div>
 
                 </div>
@@ -1053,19 +1286,205 @@
 
                 <div class="evaluation-item">
 
-                    <div class="evaluation-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
+                    <span>03</span>
 
                     <div>
-
-                        <h3>
-                            模型底层理解
-                        </h3>
+                        <strong>
+                            模型底层与高效训练
+                        </strong>
 
                         <p>
-                            深入理解模型原理、训练机制和高效训练技术。
+                            进一步理解模型内部机制、
+                            GPU 训练和高效推理技术。
                         </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     Interested Directions
+========================================================= -->
+
+<section id="learning" class="section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <span class="section-number">05</span>
+
+            <div>
+
+                <p class="section-small-title">
+                    WHAT I'M EXPLORING
+                </p>
+
+                <h2>
+                    我感兴趣的技术方向
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="direction-grid">
+
+            <div class="direction-card">
+
+                <span class="direction-number">
+                    01
+                </span>
+
+                <i class="fa-solid fa-language"></i>
+
+                <h3>
+                    自然语言处理
+                </h3>
+
+                <p>
+                    希望进一步学习文本理解、文本生成、
+                    语义表示以及 Transformer 等 NLP 技术。
+                </p>
+
+                <div>
+                    NLP · Transformer · Representation
+                </div>
+
+            </div>
+
+
+            <div class="direction-card">
+
+                <span class="direction-number">
+                    02
+                </span>
+
+                <i class="fa-solid fa-brain"></i>
+
+                <h3>
+                    大语言模型
+                </h3>
+
+                <p>
+                    希望深入理解 LLM 的预训练、
+                    指令微调、参数高效微调、推理、
+                    对齐与评价。
+                </p>
+
+                <div>
+                    Pretraining · Fine-tuning · Alignment
+                </div>
+
+            </div>
+
+
+            <div class="direction-card">
+
+                <span class="direction-number">
+                    03
+                </span>
+
+                <i class="fa-solid fa-eye"></i>
+
+                <h3>
+                    可解释人工智能
+                </h3>
+
+                <p>
+                    希望研究模型为什么做出某个预测，
+                    以及如何让 AI 的结果更加透明、可靠。
+                </p>
+
+                <div>
+                    Interpretability · Trustworthy AI
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Currently Learning -->
+
+        <div class="learning-box">
+
+            <div class="learning-header">
+
+                <div>
+
+                    <span>
+                        CURRENTLY LEARNING
+                    </span>
+
+                    <h3>
+                        最希望进一步学习的知识
+                    </h3>
+
+                </div>
+
+                <div class="learning-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+
+            </div>
+
+
+            <div class="learning-content">
+
+                <div class="learning-group">
+
+                    <h4>
+                        <i class="fa-solid fa-robot"></i>
+                        LLM / AI
+                    </h4>
+
+                    <div class="learning-tags">
+
+                        <span>RAG</span>
+
+                        <span>Agent</span>
+
+                        <span>GRPO</span>
+
+                        <span>Reward Model</span>
+
+                        <span>LLM Evaluation</span>
+
+                        <span>Efficient LLM Inference</span>
+
+                        <span>Explainable AI</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="learning-group">
+
+                    <h4>
+                        <i class="fa-solid fa-square-root-variable"></i>
+                        Mathematics
+                    </h4>
+
+                    <div class="learning-tags">
+
+                        <span>概率论</span>
+
+                        <span>线性代数</span>
+
+                        <span>微积分</span>
+
+                        <span>优化理论</span>
 
                     </div>
 
@@ -1080,73 +1499,87 @@
 </section>
 
 
-<!-- =========================
-     Roadmap
-========================= -->
+<!-- =========================================================
+     Three Year Plan
+========================================================= -->
 
-<section id="roadmap" class="section roadmap-section">
+<section id="plan" class="section plan-section">
 
     <div class="section-container">
 
-        <div class="section-header">
+        <div class="section-heading">
 
-            <span class="section-label">
-                THREE-YEAR ROADMAP
-            </span>
+            <span class="section-number">06</span>
 
-            <h2>
-                未来三年发展规划
-            </h2>
+            <div>
 
-            <p>
-                逐步夯实基础 → 深入研究 → 明确未来方向。
-            </p>
+                <p class="section-small-title">
+                    FUTURE ROADMAP
+                </p>
+
+                <h2>
+                    三年发展规划
+                </h2>
+
+            </div>
 
         </div>
 
 
-        <div class="timeline">
+        <p class="section-intro">
+            从基础能力建设，到科研方向探索，
+            最终明确未来的发展道路。
+        </p>
 
+
+        <div class="timeline">
 
             <!-- Year 1 -->
 
             <div class="timeline-item">
 
-                <div class="timeline-dot blue-dot">
+                <div class="timeline-marker">
                     01
                 </div>
 
                 <div class="timeline-content">
 
-                    <span class="timeline-year">
+                    <div class="timeline-year">
                         2026
-                    </span>
+                    </div>
 
                     <h3>
                         夯实基础
                     </h3>
 
-                    <span class="timeline-en">
-                        Foundation
-                    </span>
-
                     <p>
-                        进一步完善人工智能基础知识，
-                        深入学习 NLP 与深度学习相关技术，
-                        多阅读领域论文，同时提升代码能力。
+                        第一阶段重点完善人工智能基础知识，
+                        提高代码能力和工程实践能力。
                     </p>
 
-                    <div class="timeline-tags">
+                    <ul>
 
-                        <span>AI Fundamentals</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            系统学习 AI / NLP 基础知识
+                        </li>
 
-                        <span>NLP</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            阅读更多论文（Paper）
+                        </li>
 
-                        <span>Paper Reading</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            提升 Python / PyTorch 编程能力
+                        </li>
 
-                        <span>Coding</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            完成更多实际项目
+                        </li>
 
-                    </div>
+                    </ul>
 
                 </div>
 
@@ -1157,42 +1590,49 @@
 
             <div class="timeline-item">
 
-                <div class="timeline-dot pink-dot">
+                <div class="timeline-marker">
                     02
                 </div>
 
                 <div class="timeline-content">
 
-                    <span class="timeline-year">
+                    <div class="timeline-year">
                         2027
-                    </span>
+                    </div>
 
                     <h3>
                         深入研究
                     </h3>
 
-                    <span class="timeline-en">
-                        Research
-                    </span>
-
                     <p>
-                        将学习重点逐渐转向自然语言处理、
-                        大语言模型及教育人工智能研究，
-                        尝试持续产出科研成果，
-                        并逐渐找到真正感兴趣的研究方向。
+                        将学习重点逐渐转向
+                        <strong>NLP 与大语言模型研究</strong>，
+                        并尝试持续产出科研成果。
                     </p>
 
-                    <div class="timeline-tags">
+                    <ul>
 
-                        <span>LLM</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            深入学习 NLP / LLM
+                        </li>
 
-                        <span>Research</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            持续进行科研实验
+                        </li>
 
-                        <span>Educational AI</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            尝试论文复现与改进
+                        </li>
 
-                        <span>Research Output</span>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            找到真正感兴趣的研究方向
+                        </li>
 
-                    </div>
+                    </ul>
 
                 </div>
 
@@ -1201,39 +1641,77 @@
 
             <!-- Year 3 -->
 
-            <div class="timeline-item">
+            <div class="timeline-item current-plan">
 
-                <div class="timeline-dot purple-dot">
+                <div class="timeline-marker">
                     03
                 </div>
 
                 <div class="timeline-content">
 
-                    <span class="timeline-year">
+                    <div class="timeline-year">
                         2028
-                    </span>
+                    </div>
 
                     <h3>
                         明确发展方向
                     </h3>
 
-                    <span class="timeline-en">
-                        Future
-                    </span>
-
                     <p>
-                        目前更倾向于继续深造，
-                        希望通过研究生阶段进一步深入人工智能领域，
-                        同时探索自己真正适合和感兴趣的研究方向。
+                        根据前两年的学习和科研经历，
+                        进一步明确自己的长期发展方向。
                     </p>
 
-                    <div class="timeline-tags">
+                    <div class="future-options">
 
-                        <span>Graduate School</span>
+                        <div>
+                            <i class="fa-solid fa-building-columns"></i>
 
-                        <span>AI Research</span>
+                            <strong>
+                                继续深造
+                            </strong>
 
-                        <span>Future Direction</span>
+                            <span>
+                                研究生 / AI Research
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <i class="fa-solid fa-briefcase"></i>
+
+                            <strong>
+                                就业发展
+                            </strong>
+
+                            <span>
+                                AI / NLP / LLM Engineer
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <i class="fa-solid fa-scale-balanced"></i>
+
+                            <strong>
+                                公务员
+                            </strong>
+
+                            <span>
+                                根据个人情况综合考虑
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="future-note">
+
+                        <i class="fa-solid fa-compass"></i>
+
+                        <span>
+                            目前更倾向于继续深造，攻读研究生，
+                            进一步深入学习人工智能相关知识。
+                        </span>
 
                     </div>
 
@@ -1243,36 +1721,14 @@
 
         </div>
 
-
-        <div class="future-note">
-
-            <div class="future-icon">
-                <i class="fas fa-compass"></i>
-            </div>
-
-            <div>
-
-                <h3>
-                    My Future Goal
-                </h3>
-
-                <p>
-                    目前更倾向于继续深造，在人工智能、
-                    NLP 与大语言模型方向进行更加深入的学习和研究。
-                </p>
-
-            </div>
-
-        </div>
-
     </div>
 
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      Contact
-========================= -->
+========================================================= -->
 
 <section id="contact" class="section contact-section">
 
@@ -1280,62 +1736,68 @@
 
         <div class="contact-card">
 
-            <div class="contact-decoration decoration-1"></div>
-            <div class="contact-decoration decoration-2"></div>
+            <div class="contact-decoration"></div>
 
-            <span class="section-label">
-                LET'S CONNECT
-            </span>
+            <div class="contact-content">
 
-            <h2>
-                一起学习，一起探索 AI
-            </h2>
-
-            <p>
-                如果你也对人工智能、自然语言处理、
-                大语言模型或者教育人工智能感兴趣，
-                欢迎交流。
-            </p>
-
-
-            <div class="contact-topics">
-
-                <span>
-                    🤖 Artificial Intelligence
+                <span class="section-small-title">
+                    LET'S CONNECT
                 </span>
 
-                <span>
-                    🧠 NLP
-                </span>
+                <h2>
+                    欢迎和我交流
+                </h2>
 
-                <span>
-                    💬 LLM
-                </span>
+                <p>
+                    如果你也对人工智能、NLP、大语言模型、
+                    教育人工智能或深度学习感兴趣，
+                    欢迎交流学习。
+                </p>
 
-                <span>
-                    🎓 Educational AI
-                </span>
 
-                <span>
-                    🔬 Deep Learning
-                </span>
+                <div class="contact-tags">
+
+                    <span>
+                        <i class="fa-solid fa-robot"></i>
+                        人工智能
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-language"></i>
+                        NLP
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-comments"></i>
+                        LLM
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        教育人工智能
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-brain"></i>
+                        深度学习
+                    </span>
+
+                </div>
+
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   class="github-button">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    Visit My GitHub
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
 
             </div>
-
-
-            <!-- GitHub -->
-
-            <a href="https://github.com/"
-               target="_blank"
-               class="github-button">
-
-                <i class="fab fa-github"></i>
-
-                Visit My GitHub
-
-                <i class="fas fa-arrow-right"></i>
-
-            </a>
 
         </div>
 
@@ -1344,41 +1806,52 @@
 </section>
 
 
-<!-- =========================
+</main>
+
+
+<!-- =========================================================
      Footer
-========================= -->
+========================================================= -->
 
 <footer>
 
     <div class="footer-container">
 
-        <div class="footer-name">
-            王圣杰
+        <div>
+
+            <strong>
+                王圣杰
+            </strong>
+
+            <span>
+                AI · NLP · LLM
+            </span>
+
         </div>
 
-        <div class="footer-text">
+        <p>
             Keep Learning · Keep Building · Keep Exploring
-        </div>
+        </p>
 
-        <div class="footer-copy">
-            © 2026 Shengjie Wang. Built with curiosity & passion.
-        </div>
+        <span class="copyright">
+            © 2026 Shengjie Wang
+        </span>
 
     </div>
 
 </footer>
 
 
-<!-- Back to Top -->
+<!-- Back To Top -->
 
-<button id="backToTop" class="back-to-top">
+<a href="#home"
+   class="back-to-top"
+   aria-label="Back to top">
 
-    <i class="fas fa-arrow-up"></i>
+    <i class="fa-solid fa-arrow-up"></i>
 
-</button>
+</a>
 
-
-<script src="script.js"></script>
 
 </body>
 </html>
